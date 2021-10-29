@@ -20,8 +20,8 @@ function addTodo(e){
     if (!tickbox.checked){
       tickbox.addEventListener("click", function(e){
       const textStyle =tickbox.nextSibling.style
-      textStyle.textDecoration = 'line-through'
-      textStyle.color = "gray";
+      //textStyle.textDecoration = 'line-through'
+      //textStyle.color = "gray";
      })
     }
   }
